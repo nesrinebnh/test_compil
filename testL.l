@@ -70,3 +70,10 @@ separateur " "|\t
 	yylval.chaine = strdup(yytext);
 	return FIN;
 }
+
+.	{printf("ERROR, line= %d colonne= %d\n",line,colonne);}
+%%
+int yywrap(void)
+{
+return 0;
+}
