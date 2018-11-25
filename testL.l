@@ -8,7 +8,6 @@ int line = 0;
 int colonne = 0;
 %}
 debut "DEBUT"
-fin "FIN"
 inst "INST"
 fin "FIN"
 int 0|[1-9][0-9]*
