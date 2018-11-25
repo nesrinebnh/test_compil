@@ -13,7 +13,7 @@ fin "FIN"
 int 0|[1-9][0-9]*
 reel [0-9]+"."[0-9]+
 idf [A-Z][a-z0-9]*
-separator " "|\t
+separateur " "|\t
 
 %%
 
