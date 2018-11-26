@@ -1,0 +1,10 @@
+﻿DEBUT
+INT A,B,Abc;
+REEL Z;
+INST
+A=(-2)+6;
+R1=R1/9.5*3.1;
+FIN
+
+
+
